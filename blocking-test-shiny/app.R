@@ -1,8 +1,10 @@
 library(shiny)
-
+library(shinythemes)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
+  # shiny theme
+  theme = shinytheme("cosmo"),
   
   # Application title
   navbarPage("Freshman Blocking and Housing Project",
