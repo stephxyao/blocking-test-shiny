@@ -5,7 +5,7 @@ library(shinythemes)
 ui <- fluidPage(
   # shiny theme
   theme = shinytheme("cosmo"),
-  
+
   # Application title
   navbarPage("Freshman Blocking and Housing Project",
     tabPanel("Description",
